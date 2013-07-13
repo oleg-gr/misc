@@ -1,5 +1,4 @@
 misc
-Random code
 ====
 Spiral-Polygonization - Implementation of spiral polygonization algorithm
 
