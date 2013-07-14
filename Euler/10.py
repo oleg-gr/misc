@@ -9,9 +9,7 @@ def generate_primes(lim):
             primes[j] = False
 
 def main():
-   primes = [i for i in generate_primes(2000000)]
-   print(sum(primes))
-   print("sa")
+   print(sum(generate_primes(2000000)))
 
 
 main()
