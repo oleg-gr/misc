@@ -24,7 +24,7 @@ public class s2 {
 		//makes sure the chain is added starting from 1, not 0
 		int f = 1;
 		
-		while (hull.size() != 1) {
+		while (hull.size() > 1) {
 			
 			for(int i = f; i < hull.size() - k; i++) {
 				
@@ -48,7 +48,7 @@ public class s2 {
 			else {
 				k++;
 				//assignment of f is here in order to minimize the number of times it's done unnecessary
-				//only the very first time 0 assigned to f is "usuful"
+				//only the very first time 0 assigned to f is "useful"
 				f = 0;
 			}
 			direction = !direction;
