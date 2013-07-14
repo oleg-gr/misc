@@ -2,4 +2,4 @@ misc
 ====
 Spiral-Polygonization - Implementation of spiral polygonization algorithm
 
-euler - Euler project solutions
+Euler - Euler project solutions
