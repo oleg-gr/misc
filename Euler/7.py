@@ -16,7 +16,7 @@ def main():
 	counter = 0
 	n = 2
 
-	while counter < 10001:
+	while counter < 1000000:
 		if is_prime(n):
 			counter += 1
 		n += 1
